@@ -6,7 +6,6 @@ const ExchangerBlock = (props) => {
         props.setOperationKey(props.ExKey)
         props.setExchangedValue({...props.exchangedValue, value: e.target.value})
     }
-        // value: props.exchangedValue[props.ExKey].value / props.currencyList[props.exchangedValue.currency] * props.currencyList[props.exchangedValue["from"].currency]
 
     useEffect(() => {
     }, [props.exchangedValue[props.exchangedValue[props.ExKey].currency]])
