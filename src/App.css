@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+.select {
+    display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.exchanger {
+    display: block;
+    margin: 0 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.exchangerBlockContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.exchangerStats {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.exchangerStats * {
+    margin: 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.exchangerStats button {
+    width: 45%;
+    border-radius: 25px;
+}
+
+.exchangeBlock {
+    width: 45%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number] {
+    border: none !important;
+    font-size: 92px !important;
+    height: 108px !important;
+    font-weight: 300;
+}
+
+.Green {
+    color: green;
+}
+.Red {
+    color: red;
+}
+
+@media screen and (max-width: 1024px) {
+    input[type=number] {
+        border: none !important;
+        font-size: 72px !important;
+        height: 96px !important;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    input[type=number] {
+        border: none !important;
+        font-size: 48px !important;
+        height: 72px !important;
+        font-weight: 300;
+    }
+
+    .exchangeBlock {
+        width: 100%;
+    }
 }
