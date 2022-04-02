@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Exchanger/static/css/main.0dcac13d.css",
+    "main.js": "/Exchanger/static/js/main.21da8cf4.js",
+    "index.html": "/Exchanger/index.html",
+    "main.0dcac13d.css.map": "/Exchanger/static/css/main.0dcac13d.css.map",
+    "main.21da8cf4.js.map": "/Exchanger/static/js/main.21da8cf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dcac13d.css",
+    "static/js/main.21da8cf4.js"
+  ]
+}
