@@ -1,6 +1,6 @@
 class API {
     static #APIUrl = "https://api.fastforex.io"
-    static #APIKey = "7f3cf67202-78c70631da-rc4jiu"
+    static #APIKey = "6f09f1ef0a-e323ad0b38-ry293x"
 
     static Currencies = async () => await fetch(this.#APIUrl + "/fetch-all?api_key=" + this.#APIKey)
         .then(res => res.json()).then(res => res["results"])
